@@ -30,6 +30,8 @@ class School
       if !sorted_hash[grade]
         @sorted_hash[grade] = []
         @sorted_hash[grade] << students
+      else
+        @sorted_hash[grade] << students
       end
     end
   end
