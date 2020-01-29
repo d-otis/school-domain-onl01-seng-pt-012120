@@ -29,9 +29,9 @@ class School
     @roster.each do |grade, students|
       if !sorted_hash[grade]
         @sorted_hash[grade] = []
-        @sorted_hash[grade] << students
+        @sorted_hash[grade] = students
       else
-        @sorted_hash[grade] << students
+        @sorted_hash[grade] = students
       end
     end
   end
