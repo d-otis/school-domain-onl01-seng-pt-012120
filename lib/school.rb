@@ -28,13 +28,14 @@ class School
     sorted_hash = {}
     @roster.each do |grade, students|
       if !sorted_hash[grade]
+        binding.pry
         @sorted_hash[grade] = []
         @sorted_hash[grade] = students
       else
         @sorted_hash[grade] = students
       end
     end
-    binding.pry
+    # binding.pry
   end
   
   
