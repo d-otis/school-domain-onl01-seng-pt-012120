@@ -30,9 +30,9 @@ class School
       if !sorted_hash[grade]
         binding.pry
         sorted_hash[grade] = []
-        sorted_hash[grade] = students
+        sorted_hash[grade] = students.sort
       else
-        sorted_hash[grade] = students
+        sorted_hash[grade] = students.sort
       end
     end
     # binding.pry
