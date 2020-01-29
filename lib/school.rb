@@ -35,7 +35,7 @@ class School
         sorted_hash[grade] = students.sort
       end
     end
-    # binding.pry
+    sorted_hash
   end
   
   
