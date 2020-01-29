@@ -10,9 +10,9 @@ class School
     @roster = {}
   end
   
-  def add_student(name, age)
-    @roster[name] = []
-    @roster[name] = age
+  def add_student(name, grade)
+    @roster[grade] = []
+    @roster[grade] = name
   end
   
   
